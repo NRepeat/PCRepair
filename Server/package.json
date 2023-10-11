@@ -1,0 +1,23 @@
+{
+  "name": "pc-repair-server",
+  "version": "1.0.0",
+  "description": "pc repaire server ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "server": "nodemon --watch server.js",
+    "client": "npm run dev --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Nikita Nazarov",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.1",
+    "concurrently": "^8.2.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}
