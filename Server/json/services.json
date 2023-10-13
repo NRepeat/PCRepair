@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Hardware repair",
+    "discription": "Lorem",
+    "price_range": "$100 - $200"
+  },
+  {
+    "name": "Hardware repair",
+    "discription": "Lorem",
+    "price_range": "$100 - $200"
+  },
+  {
+    "name": "Hardware repair",
+    "discription": "Lorem",
+    "price_range": "$100 - $200"
+  },
+  {
+    "name": "Virus removal",
+    "discription": "Lorem",
+    "price_range": "$100 - $300"
+  }
+]
