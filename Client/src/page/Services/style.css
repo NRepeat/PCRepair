@@ -1,0 +1,18 @@
+.servicesCardContainer{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+
+}
+
+.servicesCardWrapper{
+	display: flex;
+	width: 2000px;
+	justify-content: center;
+	align-items: start;
+	text-align: center;
+	padding-top: 10px;
+	padding-left: 10px;
+	flex-wrap: wrap;
+}

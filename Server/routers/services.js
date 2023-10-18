@@ -1,5 +1,5 @@
 const serviceRouter = require("express").Router();
-const serviceController = require("../controller/index")
+const serviceController = require("../controller/index.js")
 serviceRouter.route(
 	"/:type"
 ).get()

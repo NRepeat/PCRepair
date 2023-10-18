@@ -1,0 +1,29 @@
+.servicesCard{
+	width: 500px;
+	height: 500px;
+	display: flex;
+	border: 1px solid gainsboro;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+}
+.servicesCard:nth-child(2n){
+	background-color: rgba(98, 98, 171, 0.054);
+}
+.servicesCard:nth-child(2n+1){
+	background-color: rgba(255, 68, 0, 0.321);
+}
+h1{
+text-decoration: underline;
+}
+p:nth-child(2){
+font-weight: 800;
+width: 50%;
+font-size: 1.3rem;
+line-height: 2.2rem;
+}
+p:nth-child(3){
+	color: green;
+	font-weight: bolder;
+	font-size: 2rem;
+}

@@ -19,12 +19,21 @@ const PCrepairApi = {
 		try {
 			const serviceData = await httpClient.get(`/service/all`)
 			const { data } = serviceData
-			console.log("🚀 ~ file: index.js:22 ~ getAllServices: ~ data :", data )
 			return data
 		} catch (error) {
 			console.error(error)
 		}
 
+	},
+	postMessage: async (payload) => {
+		try {
+
+			const res = await httpClient.post(`/email/send`, payload)
+			return res
+		} catch (error) {
+			console.error(error)
+		}
 	}
+
 }
 export { PCrepairApi }

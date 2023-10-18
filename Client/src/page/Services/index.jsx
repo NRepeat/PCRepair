@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import ServicesCard from "../../components/ServicesComponents/ServicesCard";
-import ServicesDescription from "../../components/ServicesComponents/ServicesDescription";
 import Banner from "../../components/ServicesComponents/ServicesBanner";
+import "./style.css";
 import { PCrepairApi } from "../../api";
 
 export default function Services() {
@@ -17,14 +17,19 @@ export default function Services() {
   }, []);
 
   return (
-    <div>
+    <div style={{overflow:'hidden'}}>
       <div>
         <Banner />
-        {services &&
-          services.data.map((service, i) => (
-            <ServicesCard service={service} key={i} />
-          ))}
-        <ServicesDescription />
+				<div className="servicesCardContainer">
+				<div className="servicesCardWrapper">
+          {services &&
+            services.data.map((service, i) => (
+              <ServicesCard service={service} key={i} />
+            ))}
+        </div>
+
+				</div>
+      
       </div>
     </div>
   );

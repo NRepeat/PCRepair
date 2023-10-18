@@ -1,22 +1,32 @@
 [
   {
     "name": "Hardware repair",
-    "discription": "Lorem",
+    "discription": "We offer hardware repair services for issues like component replacement, fixing physical damage, and more.",
     "price_range": "$100 - $200"
   },
   {
-    "name": "Hardware repair",
-    "discription": "Lorem",
-    "price_range": "$100 - $200"
+    "name": "Virus Removal",
+    "discription": " Our virus removal services will get your computer back to a clean and secure state.",
+    "price_range": "$100 - $150"
   },
   {
-    "name": "Hardware repair",
-    "discription": "Lorem",
-    "price_range": "$100 - $200"
+    "name": "Pc Tune Up",
+    "discription": "Get your PC running at its best with our PC tune-up service.",
+    "price_range": "$75 - $100"
   },
   {
-    "name": "Virus removal",
-    "discription": "Lorem",
-    "price_range": "$100 - $300"
+    "name": "Network Services",
+    "discription": "We provide comprehensive network services, including setup, troubleshooting, and maintenance.",
+    "price_range": "$500 - $1300"
+  },
+  {
+    "name": "Network Services",
+    "discription": "We provide comprehensive network services, including setup, troubleshooting, and maintenance.",
+    "price_range": "$500 - $1300"
+  },
+  {
+    "name": "Network Services",
+    "discription": "We provide comprehensive network services, including setup, troubleshooting, and maintenance.",
+    "price_range": "$500 - $1300"
   }
 ]
