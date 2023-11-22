@@ -6,5 +6,5 @@ const PORT = process.env.PORT || 5002;
 
 
 server.listen(PORT, () => {
-	console.log(`Server started on port ${PORT}`);
+	console.log(`Server in docker started on port ${PORT}`);
 });
